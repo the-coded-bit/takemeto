@@ -1,0 +1,19 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "trip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "takemeto": "./trip.js"
+  },
+  "dependencies": {
+    "puppeteer": "^12.0.1",
+    "xlsx": "^0.17.4"
+  }
+}
